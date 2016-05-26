@@ -3,7 +3,7 @@
 .main-footer {
     @extend %space;
     color: $pelorous;
-    background: linear-gradient(white,grey);
+    background: linear-gradient(grey,white);
     text-align: center;
     small {
         display: block;
