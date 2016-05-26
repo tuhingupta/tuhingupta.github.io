@@ -1,0 +1,16 @@
+- ref: https://github.com/americanexpress/bucketlist
+  title: bucketlist
+  description: See what's in your BitBucket Server
+
+- ref: https://github.com/americanexpress/findxcprojorphan
+  title: findxcprojorphan
+  description: Finds source files unreferenced in Xcode project
+
+- ref: https://github.com/americanexpress/xcode-result-bundle-processor
+  title: xcode-result-bundle-processor
+  description: xcode-result-bundle-processor converts Xcode test result bundles into friendly HTML reports
+
+- ref: https://github.com/americanexpress/middle-manager
+  title: middle-manager
+  description: An easy migration path away from the Java WorkManager concurrency API
+

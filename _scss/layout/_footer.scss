@@ -1,0 +1,11 @@
+/* FOOTER
+-------------------------------------------------*/
+.main-footer {
+    @extend %space;
+    color: $pelorous;
+    background: linear-gradient(white,grey);
+    text-align: center;
+    small {
+        display: block;
+    }
+}

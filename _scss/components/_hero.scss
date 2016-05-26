@@ -1,0 +1,69 @@
+/* HERO
+-------------------------------------------------*/
+.hero {
+    position: relative;
+    margin-top: 70px;
+    .container-fluid {
+        position: relative;
+    }
+    .icon {
+        margin-right: 10px;
+        color: $colorPrimary;
+        vertical-align: top;
+    }
+}
+
+.hero-content {
+    padding: $space 0;
+   
+   /* Commented by Amex - not required. Hides the big image.
+
+    background: rgba($white, 0.7);
+    @include breakpoint(small) {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+   */
+    h1 {
+        margin: 0 0 5px;
+        color: $colorPrimary;
+    }
+
+
+    p {
+        font-size: 1.125rem;
+    }
+}
+/* Grid
+----------------------------------------------------*/
+.repositories {
+    background: $bckwhite;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+/* Careers
+-----------------------------------------------------*/
+.careers {
+    background: $pelorous;
+    color: $white;
+    padding: 60px 0;
+}
+
+.careers h2 {
+    color: $white;
+}
+
+.careers a {
+    color: $careerlinkcolor;
+}
+
+/* contact us
+------------------------------------------------------*/
+.contactus{
+    background: $bck;
+    padding: 60px 0;
+}
+
