@@ -28,7 +28,7 @@ sunday: 10:00 – 15:00
 
 # Testimonials
 testimonials:
-    testimonials_img: parallax.jpg
+    testimonials_img: amex-big.jpeg
 
 paginate: 3
 paginate_path: "/blogs/page:num/"
@@ -40,10 +40,10 @@ permalink: pretty
 # Social settings
 facebook: http://facebook.com/AmericanExpressUS
 twitter: http://twitter.com/americanexpress
-instagram: http://instagram.com
+#instagram: http://instagram.com
 youtube: http://youtube.com/user/AmericanExpress
-skype: skype:obaez_design?userinfo
-feed: yes
+#skype: skype:obaez_design?userinfo
+# feed: yes
 
 # Footer
 copyright: © 2015 American Express - All rights reserved

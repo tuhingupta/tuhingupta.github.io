@@ -50,11 +50,12 @@ layout: default
 <!-- End 3 columns -->
 
 
-
 <!-- Start repositories -->
-<div id="repositories" class="repositories">
-    <div class="container-fluid ">
-        <h2 class="section-title">Repositories</h2>
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <h2 class="section-title">Repositories</h2>
 
         <div class="row">
             {% for repository in site.data.repositories %}
@@ -71,9 +72,11 @@ layout: default
                 </div>
             {% endfor %}
         </div>
+        </div>
     </div>
 </div>
 <!-- End repositories -->
+
 
 <!-- Start Our careers -->
 <div id="careers" class="careers"> 
