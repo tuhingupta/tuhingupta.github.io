@@ -7,7 +7,7 @@ logo_url: /svg/min/logo_bluebox.gif
 
 # Hero
 hero: 
-    hero_img: amex-big.jpeg
+    hero_img: Frontpanel.jpg
     hero_title: American Express on Github
     hero_description: American Express Open Source
 
@@ -26,9 +26,9 @@ monday_friday: 9:00 – 18:00
 saturday: 10:00 – 17:00
 sunday: 10:00 – 15:00
 
-# Testimonials
+# Amexparallax
 amexparallax:
-    parallax_img: amex-big.jpeg
+    parallax_img: parallaxbckgrndimg.jpeg
 
 paginate: 3
 paginate_path: "/blogs/page:num/"
