@@ -8179,6 +8179,12 @@ a.pagination-item:hover {
   font-size: 1.125rem;
 }
 
+/* TITLE, DESCRIPTION
+----------------------------------------------------*/
+.maintitle p {
+  text-align: left;
+}
+
 /* FORM
 -------------------------------------------------*/
 .form {

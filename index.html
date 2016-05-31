@@ -5,18 +5,15 @@ layout: default
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
-        <div class="container-fluid">
-            <div class="hero-content-inner">
-                <div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-8 form">
+        <div class="container-fluid ">
+            <div class="col-md-6 maintitle">
                 <h1>{{ site.hero.hero_title }}</h1>
                 <p>{{ site.hero.hero_description }}</p>
-            </div>
             </div>
         </div>
         
     </div>
 
-   
 </div>
 <!-- End Hero -->
 
@@ -57,41 +54,41 @@ layout: default
         <div class="container-fluid">
             <h2 class="section-title">Repositories</h2>
 
-        <div class="row">
-            {% for repository in site.data.repositories %}
+            <div class="row">
+                {% for repository in site.data.repositories %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        
+
                         <h4>{{ repository.title }}</h4>
                         <p>{{ repository.description }}</p>
                         <a href="{{ repository.ref }}" data-toggle="tooltip" data-placement="bottom" title="Life" >
-                        <a href="{{ repository.ref }}" target="_blank">
-                          <img src="img/GitHub-Mark-32px.png" alt="github">
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-        </div>
-    </div>
-</div>
-<!-- End repositories -->
+                            <a href="{{ repository.ref }}" target="_blank">
+                              <img src="img/GitHub-Mark-32px.png" alt="github">
+                          </a>
+                      </div>
+                  </div>
+                  {% endfor %}
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- End repositories -->
 
 
-<!-- Start Our careers -->
-<div id="careers" class="careers"> 
+  <!-- Start Our careers -->
+  <div id="careers" class="careers"> 
     <div class="container-fluid">
         <h2 class="section-title">Careers</h2>
 
         <div class="row">
-             <div class="col-sm-12">
-                <p>Join Us at American Express!
-        
+           <div class="col-sm-12">
+            <p>Join Us at American Express!
+
                 Visit us at our <a href="{{ site.career.web }}" target="_blank">Careers website</a>.
             </p>
-              </div>  
-        </div>
+        </div>  
     </div>
+</div>
 </div>
 <!-- End Our careers -->
 
@@ -101,14 +98,14 @@ layout: default
         <h2 class="section-title">Contact Us</h2>
 
         <div class="row">
-             <div class="col-sm-12">
-                <p>Share you views, comments about the content of our website or our open source repositories.</br>
-                   Let us know how we can improve our website and code. 
-                   <a href="mailto:{{ site.osf.email }}" title="{{ site.osf.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg> Mail us!</a>
-                 
-                </p>
-              </div>  
-        </div>
-    </div>
+           <div class="col-sm-12">
+            <p>Share you views, comments about the content of our website or our open source repositories.</br>
+             Let us know how we can improve our website and code. 
+             <a href="mailto:{{ site.osf.email }}" title="{{ site.osf.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg> Mail us!</a>
+
+         </p>
+     </div>  
+ </div>
+</div>
 </div>
 <!-- End Our Contact us -->
