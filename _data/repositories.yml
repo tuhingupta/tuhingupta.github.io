@@ -14,3 +14,7 @@
   title: middle-manager
   description: An easy migration path away from the Java WorkManager concurrency API
 
+- ref: https://github.com/americanexpress/yelp-search
+  title: yelp-search
+  description: Designed to make it easy to programmatically search Yelp for businesses using the public version 2.0 of the Yelp Search API
+
