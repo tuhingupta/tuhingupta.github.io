@@ -27,8 +27,8 @@ saturday: 10:00 – 17:00
 sunday: 10:00 – 15:00
 
 # Testimonials
-testimonials:
-    testimonials_img: amex-big.jpeg
+amexparallax:
+    parallax_img: amex-big.jpeg
 
 paginate: 3
 paginate_path: "/blogs/page:num/"
