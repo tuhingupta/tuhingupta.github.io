@@ -28,13 +28,14 @@
     }
    */
     h1 {
-        margin: 0 0 5px;
-        color: $colorPrimary;
+        margin: 2em -3em 0.5em;
+        color: $maintitle;
     }
 
 
     p {
         font-size: 1.125rem;
+        color: $maintitle;
     }
 }
 
@@ -42,6 +43,10 @@
 ----------------------------------------------------*/
 .maintitle p {
     text-align: left;
+}
+
+.maintitle {
+    color: $colorHeading;
 }
 
 

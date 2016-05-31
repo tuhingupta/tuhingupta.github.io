@@ -8171,18 +8171,23 @@ a.pagination-item:hover {
 }
 
 .hero-content h1 {
-  margin: 0 0 5px;
-  color: #005FCA;
+  margin: 2em -3em 0.5em;
+  color: #E0E0E0;
 }
 
 .hero-content p {
   font-size: 1.125rem;
+  color: #E0E0E0;
 }
 
 /* TITLE, DESCRIPTION
 ----------------------------------------------------*/
 .maintitle p {
   text-align: left;
+}
+
+.maintitle {
+  color: #333;
 }
 
 /* FORM
