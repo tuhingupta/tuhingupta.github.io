@@ -24,8 +24,9 @@ layout: default
         {% endfor %}
       </div>
 
-
+      
       <!-- Pagination links -->
+    <div class="container post-title">
       <div class="pagination">
         {% if paginator.next_page %}
         <a class="pagination-item older" href="/blogs/page{{paginator.next_page}}/">Older</a>
@@ -42,6 +43,7 @@ layout: default
         <span class="pagination-item newer">Newer</span>
         {% endif %}
       </div>
+    </div>
     </div>
   </div>
 
