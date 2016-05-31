@@ -4,6 +4,11 @@
 /* contact us
 ------------------------------------------------------*/
 .contactus{
-    background: $bckGrey;
+    background: $pelorous;
     padding: 60px 0;
+    color: $white;
+}
+
+.contactus a {
+	color: $careerlinkcolor;
 }
