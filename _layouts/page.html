@@ -1,16 +1,22 @@
 ---
 layout: default
 ---
-<section id="blogs">
-<br/><br/><br/><br/>
-<div class="post">
- 
-  <h1>{{ page.title }}</h1>
-  <span>{{ page.date | date_to_string }}</span>
+<section id="blogslink"></br></br></br>
+	<div class="amexparallax parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.amexparallax.parallax_img }}');">
+		<div class="overlay-container">
+			<div class="overlay"></div>
+			<div class="container-fluid">
+				<div class="post well well-lg">
+
+					<h1>{{ page.title }}</h1>
+					<span>{{ page.date | date_to_string }}</span>
 
 
-  <p>{{ page.content }}</p>
+					<p>{{ page.content }}</p>
 
-</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-           
+
