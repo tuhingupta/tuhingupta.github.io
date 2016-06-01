@@ -8423,6 +8423,7 @@ Example showing how to change the color/size of the icons:
   margin-bottom: 20px;
   background: #fff;
   text-align: center;
+  border-radius: 5px;
 }
 
 .boxed-icon {
