@@ -8424,6 +8424,7 @@ Example showing how to change the color/size of the icons:
   background: #fff;
   text-align: center;
   border-radius: 5px;
+  background: linear-gradient(240deg, #FFF, #b3d9ff);
 }
 
 .boxed-icon {
