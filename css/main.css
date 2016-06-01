@@ -8586,9 +8586,9 @@ Example showing how to change the color/size of the icons:
 /* contact us
 ------------------------------------------------------*/
 .contactus {
-  background: #005FCA;
+  background: linear-gradient(240deg, #FFF, #b3d9ff);
   padding: 60px 0;
-  color: #fff;
+  color: #333;
 }
 
 .contactus a {
