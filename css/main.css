@@ -7940,7 +7940,7 @@ strong {
 /*
 * https://github.com/joshualande/joshualande.github.io/blob/master/public/css/poole.css
 */
-#blogs {
+#blogs, #postsection {
   padding-top: 4rem;
 }
 
