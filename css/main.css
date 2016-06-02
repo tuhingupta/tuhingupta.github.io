@@ -8312,6 +8312,14 @@ a.pagination-item:hover {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /*.icon {
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border: solid 2px $white;
+        padding: 8px;
+        color: $white;  
+    } */
 }
 
 @media (min-width: 1200px) {
@@ -8368,15 +8376,6 @@ a.pagination-item:hover {
 
 .amexparallax blockquote small {
   text-transform: none;
-}
-
-.amexparallax .icon {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  border: solid 2px #fff;
-  padding: 8px;
-  color: #fff;
 }
 
 /* GALLERY
