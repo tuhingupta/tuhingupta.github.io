@@ -8599,8 +8599,13 @@ Example showing how to change the color/size of the icons:
   color: #3dadb2;
 }
 
-.contactbgcolor {
+.contactpanel {
   background: linear-gradient(240deg, #FFF, #b3d9ff);
+  margin-top: -5em;
+}
+
+.contactus p {
+  margin-top: -2em;
 }
 
 /* Careers
@@ -8622,7 +8627,7 @@ Example showing how to change the color/size of the icons:
   margin-top: -2em;
 }
 
-.careerbgcolor {
+.careerpanel {
   background: linear-gradient(240deg, #FFF, #b3d9ff);
 }
 
