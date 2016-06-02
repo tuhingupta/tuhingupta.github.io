@@ -44,7 +44,7 @@ If the server starts successfully and you have not made any other changes, then 
 http://localhost:4000
 ```
 
-### Change ```bash port ``` for local dev launch
+### Change ``` port ``` for local dev launch
 
 Update port entry in _config.yml file. By default it is 4000
 
