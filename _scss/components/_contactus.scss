@@ -4,11 +4,15 @@
 /* contact us
 ------------------------------------------------------*/
 .contactus{
-    background: linear-gradient(240deg,#FFF,#b3d9ff);
+    /* background: linear-gradient(240deg,#FFF,#b3d9ff); */
     padding: 60px 0;
     color: $colorHeading;
 }
 
 .contactus a {
 	color: $careerlinkcolor;
+}
+
+.contactbgcolor{
+	background: linear-gradient(240deg,#FFF,#b3d9ff);
 }

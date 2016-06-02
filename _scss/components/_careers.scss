@@ -1,7 +1,7 @@
 /* Careers
 -----------------------------------------------------*/
 .careers {
-    background: $bckGrey;
+    /* background: $bckGrey; */
     padding: 60px 0;
 }
 
@@ -11,4 +11,12 @@
 
 .careers a {
     color: $careerlinkcolor;
+}
+
+.careers p {
+	margin-top:-2em;
+}
+
+.careerbgcolor {
+	background: linear-gradient(240deg,#FFF,#b3d9ff);
 }

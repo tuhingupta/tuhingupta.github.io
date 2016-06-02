@@ -8590,7 +8590,7 @@ Example showing how to change the color/size of the icons:
 /* contact us
 ------------------------------------------------------*/
 .contactus {
-  background: linear-gradient(240deg, #FFF, #b3d9ff);
+  /* background: linear-gradient(240deg,#FFF,#b3d9ff); */
   padding: 60px 0;
   color: #333;
 }
@@ -8599,10 +8599,14 @@ Example showing how to change the color/size of the icons:
   color: #3dadb2;
 }
 
+.contactbgcolor {
+  background: linear-gradient(240deg, #FFF, #b3d9ff);
+}
+
 /* Careers
 -----------------------------------------------------*/
 .careers {
-  background: rgba(0, 0, 0, 0.075);
+  /* background: $bckGrey; */
   padding: 60px 0;
 }
 
@@ -8612,6 +8616,14 @@ Example showing how to change the color/size of the icons:
 
 .careers a {
   color: #3dadb2;
+}
+
+.careers p {
+  margin-top: -2em;
+}
+
+.careerbgcolor {
+  background: linear-gradient(240deg, #FFF, #b3d9ff);
 }
 
 /* 
