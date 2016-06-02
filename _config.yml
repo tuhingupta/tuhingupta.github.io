@@ -11,20 +11,8 @@ hero:
     hero_title: American Express on Github
     hero_description: American Express Open Source
 
-# Contact form
+# Contact
 api_token: # Enter API token here
-
-# Contact info
-contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
-
-# Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
 
 # Amexparallax
 amexparallax:
@@ -35,7 +23,6 @@ paginate_path: "/blogs/page:num/"
 future: true
 
 permalink: pretty
-
 
 # Social settings
 facebook: http://facebook.com/AmericanExpressUS
@@ -78,4 +65,7 @@ gems:
 # Theme Settings
 analytics: 
 google_verification:
+
+##port default 4000
+#port: 4000
 
