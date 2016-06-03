@@ -16,17 +16,9 @@
 
 .hero-content {
     padding: $space 0;
-   
-   /* Commented by Amex - not required. Hides the big image.
 
-    background: rgba($white, 0.7);
-    @include breakpoint(small) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-   */
+
+
     h1 {
         margin: 2em -3em 0.5em;
         color: $maintitle;
@@ -37,12 +29,37 @@
         font-size: 1.125rem;
         color: $maintitle;
     }
+
 }
 
 /* TITLE, DESCRIPTION
 ----------------------------------------------------*/
+
 .maintitle p {
-    text-align: left;
+    text-align: center;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 700px) {
+    .maintitle p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .maintitle p {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .maintitle p {
+        text-align: left;
+    }
+
 }
 
 .maintitle {
