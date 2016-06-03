@@ -3,7 +3,7 @@
 */
 
 #blogs, #postsection {
- // padding-top: 4rem;
+ 
 }
 
 .post {
@@ -70,7 +70,7 @@
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  color: #333333;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border: 1px solid #333333;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
