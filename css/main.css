@@ -8162,20 +8162,10 @@ a.pagination-item:hover {
 
 .hero-content {
   padding: 20px 0;
-  /* Commented by Amex - not required. Hides the big image.
-
-    background: rgba($white, 0.7);
-    @include breakpoint(small) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-   */
 }
 
 .hero-content h1 {
-  margin: 2em -3em 0.5em;
+  margin: 2em 3em 0.5em;
   color: #E0E0E0;
 }
 
@@ -8187,7 +8177,26 @@ a.pagination-item:hover {
 /* TITLE, DESCRIPTION
 ----------------------------------------------------*/
 .maintitle p {
-  text-align: left;
+  text-align: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 700px) {
+  .maintitle p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .maintitle p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .maintitle p {
+    text-align: center;
+  }
 }
 
 .maintitle {
