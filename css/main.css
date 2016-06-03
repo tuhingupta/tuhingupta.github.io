@@ -8129,6 +8129,12 @@ a.pagination-item:hover {
   background: #fff;
 }
 
+/*---- Added to make the width of navbar relative and not fix. 
+It is bigger than the body - Tuhin*/
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: inherit;
+}
+
 /* FOOTER
 -------------------------------------------------*/
 .main-footer {
@@ -8146,7 +8152,6 @@ a.pagination-item:hover {
 -------------------------------------------------*/
 .hero {
   position: relative;
-  margin-top: 70px;
   height: 20em;
 }
 
@@ -8167,6 +8172,7 @@ a.pagination-item:hover {
 .hero-content h1 {
   margin: 2em 3em 0.5em;
   color: #E0E0E0;
+  text-align: center;
 }
 
 .hero-content p {
