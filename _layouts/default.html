@@ -6,7 +6,11 @@
         <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
     <![endif]-->
 
-    {% include header.html %}
+    {% if page.url == '/' %}
+        {% include header.html %}
+    {% else %}
+        {% include blogheader.html %}
+    {% endif %}
  
         {{ content }}
            

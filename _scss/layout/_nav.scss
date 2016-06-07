@@ -117,3 +117,20 @@
     }
 
 }
+
+/* ----- THIS IS THE CLASS FOR BLOG HEADER PAGE ---*/
+
+.nav-blog {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: black;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        &.top-nav-collapse {
+            padding: 0;
+            background: black;
+            border-bottom: 1px solid rgba(255,255,255, 0.3);
+        }
+    }

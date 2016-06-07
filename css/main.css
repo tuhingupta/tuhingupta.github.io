@@ -7941,7 +7941,7 @@ strong {
 * https://github.com/joshualande/joshualande.github.io/blob/master/public/css/poole.css
 */
 #blogs, #postsection {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 
 .post {
@@ -8191,6 +8191,23 @@ a.pagination-item:hover {
     background: #000;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+}
+
+/* ----- THIS IS THE CLASS FOR BLOG HEADER PAGE ---*/
+.nav-blog {
+  padding: 20px 0;
+  border-bottom: none;
+  letter-spacing: 1px;
+  background: black;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.nav-blog.top-nav-collapse {
+  padding: 0;
+  background: black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* FOOTER
