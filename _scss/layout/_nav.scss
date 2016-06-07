@@ -1,23 +1,9 @@
 /* NAV
 -------------------------------------------------*/
-.navbar-brand {
-    padding: 0;
-    line-height: 70px;
-    > img {
-        display: inline-block;
-        max-width: 220px;
-        max-height: 50px;
-        @include breakpoint(lsmall) {
-            max-width: none;
-        }
-    }
-}
-/* .navbck {
-    background: linear-gradient(white,#D2D2D3); 
-} */
+
 .navbar {
     margin-bottom: 0;
-    border: none;
+    border: 1;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -68,16 +54,18 @@
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: #fff !important;
+        color: blue !important;
         &:focus,
         &:active {
-            outline: none;
+            outline: 2;
         }
     }
     .navbar-brand {
         font-weight: 700;
+        padding: 0;
+    line-height: 70px;
         &:focus {
-            outline: none;
+            outline: 2;
         }
     }
     a {
@@ -85,35 +73,35 @@
         
     }
     .nav {
-        text-align: center;
+        text-align: right;
         li {
             a {
                 -webkit-transition: background .3s ease-in-out;
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    /* color: rgba($font-color, 0.8); */
+                    color: rgba(black, 0.8);
                     outline: none;
                     background-color: rgba(255,255,255, 0.3);
                 }
                 &:focus,
                 &:active {
-                    outline: none;
+                    outline: 1;
                       background-color: rgba(255,255,255, 0.3);
                 }
             }
             &.active {
-                outline: none;
+                outline: 1;
                 a {
                     background-color: rgba(255,255,255, 0.3);
                     &:hover {
-                        color: transparent;
+                        background-color: rgba(255,255,255, 0.3);
                     }
                 }
             }
         }
     }
-    @media(min-width:768px) {
+    @media(min-width:700px) {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
@@ -127,4 +115,5 @@
             border-bottom: 1px solid rgba(255,255,255, 0.3);
         }
     }
+
 }
