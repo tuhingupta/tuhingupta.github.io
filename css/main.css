@@ -7797,7 +7797,7 @@ button.close {
 
 /* Space
 -------------------------------*/
-.main-footer, .treatments, .about, .amexparallax .overlay-container, .amexparallaxheader .overlay-container, .gallery, .team {
+.main-footer, .treatments, .about, .amexparallax .overlay-container, .gallery, .team {
   padding: 60px 0;
 }
 
@@ -7923,7 +7923,7 @@ p:last-child {
 /* Links
 -------------------------------*/
 a {
-  color: #F44336;
+  color: #005FCA;
   text-decoration: none;
 }
 
@@ -8419,10 +8419,6 @@ a.pagination-item:hover {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*img{
-    max-width: 100%;
-    height:auto;
-    }*/
   /*.icon {
         width: 35px;
         height: 35px;
@@ -8486,86 +8482,6 @@ a.pagination-item:hover {
 }
 
 .amexparallax blockquote small {
-  text-transform: none;
-}
-
-/* Amex Parallax for Header
--------------------------------------------------*/
-.amexparallaxheader {
-  /* color: $white; */
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*.icon {
-        width: 35px;
-        height: 35px;
-        display: inline-block;
-        border: solid 2px $white;
-        padding: 8px;
-        color: $white;  
-    } */
-}
-
-@media screen and (max-width: 768px) {
-  .amexparallaxheader .amexparallaxheader {
-    background-size: cover;
-    height: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .amexparallaxheader {
-    background-attachment: fixed;
-  }
-}
-
-.amexparallaxheader .overlay-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.amexparallaxheader .overlay-container .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.amexparallaxheader .container-fluid {
-  position: relative;
-  z-index: 10;
-}
-
-.amexparallaxheader blockquote {
-  margin: 0;
-  border: none;
-  font-style: italic;
-}
-
-.amexparallaxheader blockquote p {
-  margin: 0 0 20px;
-}
-
-.amexparallaxheader blockquote small, .amexparallaxheader blockquote footer {
-  color: #fff;
-  font-style: normal;
-}
-
-.amexparallaxheader blockquote small:before, .amexparallaxheader blockquote footer:before {
-  content: '';
-}
-
-.amexparallaxheader blockquote footer {
-  font-size: 1.063rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.amexparallaxheader blockquote small {
   text-transform: none;
 }
 
