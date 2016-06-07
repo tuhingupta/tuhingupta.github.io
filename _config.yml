@@ -7,7 +7,7 @@ logo_url: /svg/min/logo_bluebox.gif
 
 # Hero
 hero: 
-    hero_img: Frontpanel.jpg
+   # hero_img: Frontpanel.jpg
     hero_title: American Express on Github
     hero_description: American Express Open Source
 
@@ -17,6 +17,7 @@ api_token: # Enter API token here
 # Amexparallax
 amexparallax:
     parallax_img: parallaxbckgrndimg.jpeg
+    header_img: Frontpanel.jpg
 
 paginate: 3
 paginate_path: "/blogs/page:num/"
