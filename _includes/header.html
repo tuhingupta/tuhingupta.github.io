@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
 <script>
 function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
 $(document).ready(toggleNavCollapse);
@@ -55,9 +55,7 @@ $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse
         {% if page.url == '/' %}
         <!-- Scroll to section for each page in index -->
 
-        <li>
-          <a class="page-scroll" href="#top"> Home </a>
-      </li>
+        <li><a class="page-scroll" href="#top"> Home </a></li>
 
       <li>
           <a class="page-scroll" href="#repositories"> Repositories </a>

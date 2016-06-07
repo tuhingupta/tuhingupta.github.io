@@ -6,7 +6,7 @@
 
 /* Font family */
 $fontFamilyPrimary: 'BentonSans', sans-serif;
-$fontFamilySecondary: 'BentonSans-Bk', sans-serif;
+$fontFamilySecondary: 'BentonSans-regular', sans-serif;
 $fontFamilyMenu: Arial,Verdana,Helvetica,san-serif;
 /* Font weight */
 $fontWeightRegular: 400;
@@ -101,9 +101,10 @@ $tooltip-max-width: 260px;
 $tooltip-color: #fff;
 $tooltip-bg: darken($colorPrimary, 2%);
 
-/* LOCAL CHANGES
+/* Image Paths
 -------------------------------*/
 
+$simplifybg: '/img/simplify-bg.png';
 
 
 

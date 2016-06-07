@@ -23,7 +23,7 @@
 -------------------------------*/
 /* Tooltip
 -------------------------------*/
-/* LOCAL CHANGES
+/* Image Paths
 -------------------------------*/
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -7872,7 +7872,7 @@ img {
 -------------------------------*/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #333;
-  font-family: "BentonSans-Bk", sans-serif;
+  font-family: "BentonSans-regular", sans-serif;
 }
 
 h1, .h1 {
@@ -8556,6 +8556,16 @@ Example showing how to change the color/size of the icons:
   background: rgba(0, 0, 0, 0.075);
   margin-top: -20px;
   padding-top: 20px;
+}
+
+.repobase {
+  background: #FFF url("/img/simplify-bg.png") repeat-x;
+}
+
+.repo-section-title {
+  margin-bottom: 60px;
+  text-align: center;
+  padding-top: 1em;
 }
 
 /* EXPANDABLE BOX
