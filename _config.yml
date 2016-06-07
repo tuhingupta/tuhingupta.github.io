@@ -3,7 +3,7 @@ title: American Express | American Express on Github
 description: "American Express Open Source"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: /svg/min/logo_bluebox.gif
+logo_url: /img/blueboxR.png
 
 # Hero
 hero: 
