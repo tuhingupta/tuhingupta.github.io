@@ -7944,6 +7944,7 @@ strong {
 */
 #blogs, #postsection {
   padding-top: 8rem;
+  background: #fff url("/img/patternimg.gif") repeat;
 }
 
 .post {
