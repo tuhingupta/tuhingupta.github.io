@@ -45,7 +45,7 @@
     border-bottom: 1px solid rgba(255,255,255, 0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: $maintitle;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -54,7 +54,7 @@
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: blue !important;
+        color: $white !important;
         &:focus,
         &:active {
             outline: 2;
@@ -111,7 +111,7 @@
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: #000;
+            background: $maintitle;
             border-bottom: 1px solid rgba(255,255,255, 0.3);
         }
     }

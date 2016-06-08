@@ -8117,7 +8117,7 @@ a.pagination-item:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #000;
+  background-color: #002663;
   /* Fix height limit and scroll for small screen and many items menu */
   max-height: 100%;
   overflow-y: auto;
@@ -8126,7 +8126,7 @@ a.pagination-item:hover {
 .navbar-custom .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: blue !important;
+  color: #fff !important;
 }
 
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
@@ -8192,7 +8192,7 @@ a.pagination-item:hover {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #000;
+    background: #002663;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
