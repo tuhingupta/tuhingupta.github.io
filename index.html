@@ -57,15 +57,23 @@ layout: default
             <div class="row">
                 {% for repository in site.data.repositories %}
                 <div class="col-sm-6 col-xs-12 col-md-4">
-                    <div class="icon-box">
+                    <div class=" icon-box gallery-item expandable-box expandable-box-top">
 
-                        <h4>{{ repository.title }}</h4>
-                        <p>{{ repository.description }}</p>
-                        <a href="{{ repository.ref }}" data-toggle="tooltip" data-placement="bottom" title="Life" >
-                            <a href="{{ repository.ref }}" target="_blank">
-                              <img src="img/GitHub-Mark-32px.png" alt="github">
-                            </a>  
-                        </a>
+                        
+                            <div class="expandable-box-top">
+                                <div class="icon-box">
+                                  <h4>{{ repository.title }}</h4>
+                                   <p>{{ repository.description }}</p>
+                                   <a href="{{ repository.ref }}" data-toggle="tooltip" data-placement="bottom" title="Life" >
+                                   <a href="{{ repository.ref }}" target="_blank">
+                                    <img src="img/GitHub-Mark-32px.png" alt="github">
+                                    </a>  
+                                    </a>
+                                </div>
+                            </div>   
+                        <div class="expandable-box-bottom">
+                           <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+                        </div>
                     </div>
                 </div>
                  {% endfor %}

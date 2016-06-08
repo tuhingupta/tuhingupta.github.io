@@ -7956,7 +7956,7 @@ strong {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #002663;
   text-align: center;
 }
 
@@ -8496,13 +8496,13 @@ a.pagination-item:hover {
 
 @media (min-width: 480px) {
   .gallery-item {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .gallery-item {
-    width: 25%;
+    width: 100%;
   }
 }
 

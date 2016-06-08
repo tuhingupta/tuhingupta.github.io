@@ -9,10 +9,10 @@
     position: relative;
     float: left;
     @include breakpoint(lsmall) {
-        width: 50%;
+        width: 100%;
     }
     @include breakpoint(small) {
-        width: 25%;
+        width: 100%;
     }
     .icon {
         font-size: 2rem;
