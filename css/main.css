@@ -7872,7 +7872,7 @@ img {
 -------------------------------*/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #333;
-  font-family: "BentonSans-regular", sans-serif;
+  font-family: Benton sans Regular/Arial;
 }
 
 h1, .h1 {
@@ -7881,7 +7881,9 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 1.875rem;
+  font-size: 30px;
+  font-family: Benton sans Regular/Arial;
+  color: Purple;
 }
 
 h3, .h3 {
@@ -8730,10 +8732,9 @@ Example showing how to change the color/size of the icons:
   padding: 60px 0;
 }
 
-.careers h2 {
-  color: #333;
-}
-
+/*.careers h2 {
+    color: $colorHeading;
+} */
 .careers a {
   color: #3dadb2;
 }
