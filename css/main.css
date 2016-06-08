@@ -8535,7 +8535,7 @@ Example showing how to change the color/size of the icons:
   background: #fff;
   text-align: center;
   border-radius: 5px;
-  background: linear-gradient(240deg, #FFF, #b3d9ff);
+  background: #fff;
 }
 
 .boxed-icon {
@@ -8711,7 +8711,7 @@ Example showing how to change the color/size of the icons:
 }
 
 .contactpanel {
-  background: linear-gradient(240deg, #FFF, #b3d9ff);
+  background: #fff;
   margin-top: -5em;
 }
 
@@ -8738,7 +8738,7 @@ Example showing how to change the color/size of the icons:
 }
 
 .careerpanel {
-  background: linear-gradient(240deg, #FFF, #b3d9ff);
+  background: #fff;
 }
 
 /* 
