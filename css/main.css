@@ -8553,14 +8553,8 @@ Example showing how to change the color/size of the icons:
 
 /* Grid
 ----------------------------------------------------*/
-.repositories {
-  background: rgba(0, 0, 0, 0.075);
-  margin-top: -20px;
-  padding-top: 20px;
-}
-
 .repobase {
-  background: #FFF url("/img/simplify-bg.png") repeat-x;
+  background: #f7f7f7 url("/img/simplify-bg.png") repeat-x;
 }
 
 .repo-section-title {
