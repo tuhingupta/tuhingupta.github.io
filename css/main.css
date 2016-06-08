@@ -7926,6 +7926,7 @@ p:last-child {
 -------------------------------*/
 a {
   color: #005FCA;
+  font-family: Arial;
   text-decoration: none;
 }
 
@@ -8708,7 +8709,7 @@ Example showing how to change the color/size of the icons:
 }
 
 .contactus a {
-  color: #3dadb2;
+  color: #006890;
 }
 
 .contactpanel {
@@ -8731,7 +8732,7 @@ Example showing how to change the color/size of the icons:
     color: $colorHeading;
 } */
 .careers a {
-  color: #3dadb2;
+  color: #006890;
 }
 
 .careers p {

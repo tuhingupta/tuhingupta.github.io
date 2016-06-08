@@ -62,6 +62,7 @@ p {
 -------------------------------*/
 a {
     color: $colorPrimary;
+    font-family: $linkfont;
     text-decoration: none;
     &:hover, &:focus {
         text-decoration: underline;
