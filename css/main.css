@@ -7922,6 +7922,10 @@ p:last-child {
   text-align: center;
 }
 
+p {
+  color: #4D4F53;
+}
+
 /* Links
 -------------------------------*/
 a {
