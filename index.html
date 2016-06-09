@@ -65,15 +65,18 @@ layout: default
                                   <a href="{{ repository.ref }}" target="_blank"><h4>{{ repository.title }}</h4></a>
                                    <p>{{ repository.description }}</p>
                                    <a href="{{ repository.ref }}" data-toggle="tooltip" data-placement="bottom" title="Life" >
-                                   <a href="{{ repository.ref }}" target="_blank">
+                                  <!-- <a href="{{ repository.ref }}" target="_blank">
                                     <img src="img/GitHub-Mark-32px.png" alt="github">
-                                    </a>  
+                                    </a> --> 
                                     </a>
                                 </div>
                             </div>   
-                        <div class="expandable-box-bottom">
-                           <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-                        </div>
+                          <div class="expandable-box-bottom">
+                              <!-- <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span> -->
+                               <a href="{{ repository.ref }}" target="_blank">
+                                    <img src="img/GitHub-Mark-32px.png" alt="github">
+                                    </a>
+                          </div>
                     </div>
                 </div>
                  {% endfor %}
