@@ -8250,7 +8250,7 @@ a.pagination-item:hover {
 }
 
 .nav-blog .nav li a:hover {
-  color: rgba(0, 0, 0, 0.8);
+  /*color: rgba(black, 0.8);*/
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
