@@ -38,7 +38,7 @@ grunt serve
 ```
 
 ### Open in Browser
-If the server starts successfully and you have not made any other changes, then you should be to access this site at 
+If the server starts successfully and you have not made any other changes, then you should be able to access this site at 
 
 ```bash
 http://localhost:4000
