@@ -8616,6 +8616,19 @@ Example showing how to change the color/size of the icons:
   background: #fff;
 }
 
+@media screen and (max-width: 480px) {
+  .icon-box {
+    width: 100%;
+    height: 125px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+  }
+}
+
 .boxed-icon {
   width: 2.3rem;
   height: 2.3rem;
@@ -8639,6 +8652,14 @@ Example showing how to change the color/size of the icons:
   margin-bottom: 60px;
   text-align: center;
   padding-top: 1em;
+}
+
+@media screen and (max-width: 480px) {
+  .repo-section-title {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 1em;
+  }
 }
 
 /* EXPANDABLE BOX
