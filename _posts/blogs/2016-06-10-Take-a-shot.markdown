@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Take a Shot
-summary: Take a shot with Firebase Test Lab. In this post, we'll walkthrough how AMEX integrates Screenshot Testing with Firebase Test Lab to improve app quality
+title: Take a shot with Firebase Test Lab
+summary: You should be testing your apps. In this post, we'll walkthrough how AMEX integrates Screenshot Testing with Firebase Test Lab to improve app quality
 date: 2016-06-10
 author: Kylan Johnson
 permalink: /blogs/:year/:month/:day/:title/
