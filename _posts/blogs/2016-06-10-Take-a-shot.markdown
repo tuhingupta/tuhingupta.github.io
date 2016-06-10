@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Take a Shot
-summary: Summary goes here... just one line of summary
+summary: Take a shot with Firebase Test Lab. In this post, we'll walkthrough how AMEX integrates Screenshot Testing with Firebase Test Lab to improve app quality
 date: 2016-06-10
 author: Kylan Johnson
 permalink: /blogs/:year/:month/:day/:title/
