@@ -96,7 +96,7 @@ screenshots {
 ###TL;DR Putting it all Together
 Here's the basic flow of our CI Setup with Screenshot Testing Included.
 
-![](https://google.com "CI Flow")
+![](/img/blogs/CI_Setup.jpg "CI Flow")
 
 ####The Basic Process
 1. We submit our job to be run on our CI Server. 
