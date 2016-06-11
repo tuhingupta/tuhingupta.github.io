@@ -7,7 +7,7 @@ author: Kylan Johnson
 permalink: /blogs/:year/:month/:day/:title/
 ---
 
-##Take a Shot
+## Take a Shot ##
 
 As a Mobile Developer there are a few aspects to my job that are especially rewarding. (Bet you can't guess).  Yes, contributing to an well-known app and working on new features that get 5-star reviews are nice.  But, perhaps greater than both is seeing all-green on my test suite.
 
