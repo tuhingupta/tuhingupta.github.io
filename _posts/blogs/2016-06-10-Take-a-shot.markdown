@@ -39,8 +39,10 @@ Here is an example screenshot capture for a single view.  This snippet will crea
 
 
 
+
+#### Snap:
+
 ```
-**Snap:**
 
 ViewHelpers.setupView(view)
         .setExactWidthDp(widthInDp)
@@ -49,6 +51,12 @@ ViewHelpers.setupView(view)
 Screenshot.snap(view)
         .record();
 ```
+| ViewHelpers.setupView(view)
+        .setExactWidthDp(widthInDp)
+        .layout();
+
+Screenshot.snap(view)
+        .record(); |
 
 
 
