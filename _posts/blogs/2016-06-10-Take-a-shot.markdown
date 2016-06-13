@@ -39,27 +39,16 @@ Here is an example screenshot capture for a single view.  This snippet will crea
 
 
 
-```
-Snap:
 
-
-ViewHelpers.setupView(view)
+| Snap:|
+|:--------|:-------:|--------:|
+| ViewHelpers.setupView(view)
         .setExactWidthDp(widthInDp)
         .layout();
 
 Screenshot.snap(view)
-        .record();
-```
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
+        .record();  | 
+
 
 
 
