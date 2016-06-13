@@ -7954,6 +7954,10 @@ strong {
 
 .post {
   margin-bottom: 4em;
+  text-align: center;
+}
+
+.post-details {
   text-align: left;
 }
 
