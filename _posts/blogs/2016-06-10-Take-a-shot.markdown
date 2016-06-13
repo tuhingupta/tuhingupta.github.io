@@ -7,13 +7,13 @@ author: Kylan Johnson
 permalink: /blogs/:year/:month/:day/:title/
 ---
 
-## Take a Shot ##
+## Take a Shot 
 
 As a Mobile Developer there are a few aspects to my job that are especially rewarding. (Bet you can't guess).  Yes, contributing to an well-known app and working on new features that get 5-star reviews are nice.  But, perhaps greater than both is seeing all-green on my test suite.
 
 That may sound lame initially, but think about it: if your app were used by millions of people, how much assurance would you want that it's doing what you intended? Anything to give more confidence to a dev team is worth pursuing and nothing quite gives our team confidence like a slew of green builds on a CI server  **\*\*Nerd Alert\*\* **
 
-###You should be testing
+### You should be testing 
 Android developers have a lot to choose from these days to [test our apps](https://developer.android.com/studio/test/index.html).  There is jUnit for unit tests, Espresso and UI Automator for Integration tests, and even Monkey Testing for extra special circumstances.  But, have you also heard of Screenshot testing?  *(Hear more about how we test [here](https://www.youtube.com/watch?v=-xQCNf_5NNM))*  
 
 It's actually just as it sounds: a screenshot test is one where a part of the UI is captured and compared to a known Master Copy.  If the images match, the test passes, if not, the test fails.  By being just-another-test, we're able to include them with all other tests and in our development process as a whole.
@@ -30,13 +30,19 @@ Obviously, we do this for the sake of app quality, but there are plenty of other
 
 Now that we all think we should be testing, how can we include this in everyday development?  
 
-###Testing Locally
+### Testing Locally 
 For Android, we've begun using [Facebook Screenshot Tests for Android](https://github.com/facebook/screenshot-tests-for-android).  The tool provides a Java library to capture the screenshot during a test and a Gradle plugin that can be used to execute your tests and display the results.  
 
 Here is an example screenshot capture for a single view.  This snippet will create PNG file locally on the target device.  Here we're specifying a width in DP, but there are other parameters you can pass into the API.
 
 
+
+
+
 ```
+Snap:
+
+
 ViewHelpers.setupView(view)
         .setExactWidthDp(widthInDp)
         .layout();
@@ -44,6 +50,19 @@ ViewHelpers.setupView(view)
 Screenshot.snap(view)
         .record();
 ```
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+
+
  
 Next, execute your tests however you like.  Here are a couple examples.
 
@@ -63,12 +82,12 @@ To compare it to our Master copy, all we need to do is call the Gradle plugin.  
 ./gradlew verifyMode pullScreenshots
 ```
 
-###Testing at Scale
+### Testing at Scale 
 But does this approach scale?  If our test suite was on the smaller side (say, < ~100 tests) this approach may be ok, but since it only works on one device at once it will be difficult to move beyond that.  At AMEX, our app has over 1100 integration tests it needs to run so testing them locally on one device wouldn't be very practical.   We could get more devices and run tests in parallel but who will maintain them?  (not me)  And each developer can't possibly have the same setup.
 
 Fortunately, there are cloud-hosted solutions that will run your tests for you!  I won't go over the various options, but here at AMEX we use [Firebase Test Lab](https://firebase.google.com/docs/test-lab/) to execute of all our Instrumentation tests. (We recently shared our story at [Google I/O](https://www.youtube.com/watch?v=4fyhgHQYG1U))
 
-###Making it work on Firebase Test Lab
+### Making it work on Firebase Test Lab 
 
 Since we have no direct access to our test device, the Screenshot plugin will not work out of the box.  We could modify it by integrating it with our Firebase bucket, but not all users will chose Firebase.  Our solution was to provide another Gradle task that used a given directory for the reference-set rather than depending on ADB to provide it:  
  
@@ -93,19 +112,19 @@ screenshots {
 }
 ```
  
-###TL;DR Putting it all Together
+### TL;DR Putting it all Together 
 Here's the basic flow of our CI Setup with Screenshot Testing Included.
 
 <img src="/img/blogs/CI_Setup.jpg" alt="" title="CI Flow" height="700" width="600"/>
 
-####The Basic Process
+#### The Basic Process 
 1. We submit our job to be run on our CI Server. 
 1. The Job individually runs each test on Firebase
 1. As part of each run, the artifacts are collected by the CI server
 1. Our Gradle Plugin is called by the server to verify the screenshots
 1. If the screenshots in referenceDir match those found in recordDir, then the CI server can approve the test run.  Otherwise, the run will fail and generate a report just as any other failure would!
 
-###Next Steps
+### Next Steps 
 The addition of Screenshot Tests into our normal workflow has certainly improved our process and certainly increase our app quality but more can be done.  We're actively developing in this domain, so stay tuned for more announcements.
  
  
