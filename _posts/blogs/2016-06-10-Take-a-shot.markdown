@@ -39,6 +39,7 @@ Here is an example screenshot capture for a single view.  This snippet will crea
 
 
 **Snap:**
+
 ```
 
 ViewHelpers.setupView(view)
@@ -57,6 +58,7 @@ Screenshot.snap(view)
 Next, execute your tests however you like.  Here are a couple examples.
 
 **Runs all the tests**
+
 ```
 ./gradlew connectedAndroidTest    
 ```
@@ -64,6 +66,7 @@ Next, execute your tests however you like.  Here are a couple examples.
 If you want to get fancy, you can also just execute one test class.  Here the application package name is com.example.app and our class is called oneTestClass.  Go [here](https://developer.android.com/studio/test/command-line.html) for more details.
 
 **Runs one Test Class**
+
 ```
 adb shell am instrument -e class com.example.app.oneTestClass   
 ```
@@ -71,6 +74,7 @@ adb shell am instrument -e class com.example.app.oneTestClass
 To compare it to our Master copy, all we need to do is call the Gradle plugin.  This command will capture the screenshots taken from the most recent test run and verify them against your Master set
 
 **Verify Screenshots**
+
 ```
 ./gradlew verifyMode pullScreenshots
 ```
@@ -87,6 +91,7 @@ Since we have no direct access to our test device, the Screenshot plugin will no
 Here is the updated command (Note that we're no longer running `connectedAndroidTest` or calling ADB because Firebase Test Lab will run our tests for us)
 
 **Pull From Directory**
+
 ```
 ./gradlew verifyMode pullScreenshotsFromDirectory
 ```
@@ -94,6 +99,7 @@ Here is the updated command (Note that we're no longer running `connectedAndroid
 The new pullScreenshotsFromDirectory behaves just as pullScreenshots does except with no dependency on a device.  Since no ADB device is necessary it's easy to run this on a CI server; all you need is Gradle.  We simply need to configure the plugin to know where there recorded and reference screenshots are for the test run.  We can do that in our `build.gradle` file with the following config.
 
 **build.gradle**
+
 ```
 screenshots {
   // This parameter points to the directory containing all the files pulled from a device
