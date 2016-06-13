@@ -38,9 +38,8 @@ Here is an example screenshot capture for a single view.  This snippet will crea
 
 
 
-
-```
 ### Snap:
+```
 
 ViewHelpers.setupView(view)
         .setExactWidthDp(widthInDp)
