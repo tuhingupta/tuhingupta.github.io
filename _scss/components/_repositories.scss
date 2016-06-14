@@ -10,6 +10,9 @@
     border-radius: 5px;
     background: $white;
 }
+.icon-box h4{
+    color: $careerlinkcolor;
+}
 
 @media screen and (max-width: 480px) {
     .icon-box {
