@@ -5,6 +5,8 @@ summary: You should be testing your apps. In this post, we'll walkthrough how AM
 date: 2016-06-10
 author: Kylan Johnson
 permalink: /blogs/:year/:month/:day/:title/
+images:
+   setupimage: /img/blogs/CI_Setup.jpg
 ---
 
 ### Take a Shot 
@@ -116,7 +118,7 @@ screenshots {
 ### TL;DR Putting it all Together 
 Here's the basic flow of our CI Setup with Screenshot Testing Included.
 
-<img src="/img/blogs/CI_Setup.jpg" alt="" title="CI Flow" height="700" width="600"/>
+<img src="{{ page.images.setupimage }}" alt="" title="CI Flow" height="700" width="600"/>
 
 #### The Basic Process 
 1. We submit our job to be run on our CI Server. 
