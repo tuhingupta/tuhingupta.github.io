@@ -72,11 +72,11 @@ module.exports = function (grunt) {
 
         shell : {
             jekyllServe : {
-                command : 'jekyll serve'
+                command : 'bundle exec jekyll serve'
             },
 
             jekyllBuild : {
-                command : 'jekyll build'
+                command : 'bundle exec jekyll build'
             }  
         },
 
