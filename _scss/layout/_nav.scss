@@ -6,32 +6,7 @@
     border: 1;
 }
 
-.navbar-default .navbar-nav>li>a,
-.navbar-default .navbar-nav>li>a:focus {
-    color: $colorBase;
-}
 
-.navbar-default .navbar-nav>li>a:hover {
-    color: $white;
-    background: lighten($pelorous, 2%);
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: $white;
-    background: darken($pelorous, 5%);
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    background: $pelorous;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    color: $white;
-} 
 
 .navbar-default .navbar-toggle .icon-bar {
     background: $white;
@@ -66,6 +41,7 @@
         &:active {
             outline: 2;
             color: $white !important;
+            background: $white !important;
         }
     }
     .navbar-brand {
@@ -84,17 +60,19 @@
         text-align: right;
         li {
             a {
-                -webkit-transition: background .3s ease-in-out;
-                -moz-transition: background .3s ease-in-out;
-                transition: background .3s ease-in-out;
+
+               
                 &:hover {
                     outline: none;
                     background-color: rgba(255,255,255, 0.3);
                 }
-                &:focus,
+
                 &:active {
                     outline: 1;
                       background-color: rgba(255,255,255, 0.3);
+                    &:focus {
+                backgound-color : transparent;
+                }
                 }
             }
             &.active {
@@ -124,6 +102,9 @@
     }
 
 }
+
+
+
 
 /* ----- THIS IS THE CLASS FOR BLOG HEADER PAGE ---*/
 
