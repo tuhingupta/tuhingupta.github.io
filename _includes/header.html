@@ -20,11 +20,11 @@ $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse">
             <i class="fa fa-bars"></i>
         </button>
         {% if page.url == '/' %}
-        <a class="navbar-brand page-scroll" href="#top">
+        <a class="navbar-brand scroll" href="#top">
 
           <div>
 
@@ -35,7 +35,7 @@ $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse
       </a>
 
       {% else %}
-      <a class="navbar-brand page-scroll" href="/">
+      <a class="navbar-brand scroll" href="/">
 
           <div>
 
@@ -49,53 +49,54 @@ $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse
 
 
   </div>
+
   <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-      <ul class="nav navbar-nav">
+  <div class="collapse navbar-collapse scrollspy" id="navbar-main-collapse">
+      <ul class="nav navbar-nav navbar-right">
         {% if page.url == '/' %}
         <!-- Scroll to section for each page in index -->
 
-        <li><a class="page-scroll menustyle" href="#top"> Home </a></li>
+        <li><a class="scroll menustyle" href="#top"> Home </a></li>
 
       <li>
-          <a class="page-scroll menustyle"  href="#repositories"> Repositories </a>
+          <a class="scroll menustyle"  href="#repositories"> Repositories </a>
       </li>
 
       <li>
-          <a class="page-scroll menustyle"  href="#careers"> Careers </a>
+          <a class="scroll menustyle"  href="#careers"> Careers </a>
       </li>
 
       <li>
-          <a class="page-scroll menustyle"  href="#contactus"> Contact Us </a>
+          <a class="scroll menustyle"  href="#contactus"> Contact Us </a>
       </li>
 
 
       <li>
-          <a class="page-scroll menustyle"  href="{{ site.blogs }}"> Blogs </a>
+          <a class="scroll menustyle"  href="{{ site.blogs }}"> Blogs </a>
       </li> 
 
       {% else %}
       <!-- Scroll to section for each page in index -->
 
       <li>
-          <a class="page-scroll" href="/"> Home </a>
+          <a class="scroll" href="/"> Home </a>
       </li>
 
       <li>
-          <a class="page-scroll" href="/#repositories"> Repositories </a>
+          <a class="scroll" href="/#repositories"> Repositories </a>
       </li>
 
       <li>
-          <a class="page-scroll" href="/#careers"> Careers </a>
+          <a class="scroll" href="/#careers"> Careers </a>
       </li>
 
       <li>
-          <a class="page-scroll" href="/#contactus"> Contact Us </a>
+          <a class="scroll" href="/#contactus"> Contact Us </a>
       </li>
 
 
       <li>
-          <a class="page-scroll" href="{{ site.blogs }}"> Blogs </a>
+          <a class="scroll" href="{{ site.blogs }}"> Blogs </a>
       </li> 
       {% endif %}
 
