@@ -52,5 +52,5 @@ Update port entry in _config.yml file. By default it is 4000
 
 Changes to the style sheets should be done using scss file located under ``` $home/_scss ``` .
 
-main.css file is auto build when Grunt task is run.
+main.css file is auto built when Grunt task is run.
 
