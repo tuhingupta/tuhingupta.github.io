@@ -1,8 +1,4 @@
-# American Express github.io site
 
-Visit us at - http://americanexpress.github.io
-
-View our open source contributions at http://github.com/americanexpress
 
 This site uses following technologies
 * Jekyll 
@@ -20,8 +16,8 @@ This site uses following technologies
 **1\.** Clone the repository and its submodules:
 
 ```bash
-git clone https://github.com/americanexpress/americanexpress.github.io.git
-cd americanexpress.github.io
+git clone https://github.com/tuhingupta/tuhingupta.github.io.git
+cd tuhingupta.github.io
 ```
 
 **2\.** Install modules and tools
