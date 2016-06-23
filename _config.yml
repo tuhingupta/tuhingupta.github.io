@@ -1,6 +1,6 @@
 # Site settings
-title: American Express | American Express on Github
-description: "American Express Open Source"
+title: ABC on Github
+description: "ABC Open Source"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: /img/blueboxR.png
@@ -8,8 +8,8 @@ logo_url: /img/blueboxR.png
 # Hero
 hero: 
    # hero_img: Frontpanel.jpg
-    hero_title: American Express on Github
-    hero_description: American Express Open Source
+    hero_title: ABC on Github
+    hero_description: ABC Open Source
 
 # Contact
 api_token: # Enter API token here
@@ -26,26 +26,26 @@ future: true
 permalink: pretty
 
 # Social settings
-facebook: http://facebook.com/AmericanExpressUS
-twitter: http://twitter.com/americanexpress
+facebook: http://facebook.com/
+twitter: http://twitter.com/
 #instagram: http://instagram.com
-youtube: http://youtube.com/user/AmericanExpress
-#skype: skype:obaez_design?userinfo
+youtube: http://youtube.com/
+
 # feed: yes
 
 # Footer
-copyright: © 2015 American Express - All rights reserved
+copyright: © 2015 ABC - All rights reserved
 
 # Build settings
 markdown: kramdown
 
 #career site details
 career: 
-    web: https://careers.americanexpress.com/?inav=footer_careers
-    life: https://careers.americanexpress.com/Life
+    web: https://careers.abc.com/?inav=footer_careers
+    life: https://careers.abc.com/Life
 
 osf:
-    email: osf@aexp.com
+    email: osf@abc.com
 
 #blogs url
 blogs: /blogs    
